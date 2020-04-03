@@ -53,6 +53,11 @@ nav {
 
 .menu-item-dropdown {
   background-color: rgba(0, 0, 0, 0.7);
+  visibility: hidden;
+}
+
+.menu-item.selected .menu-item-dropdown {
+  visibility: visible;
 }
 
 .menu-item-dropdown > li:hover {
