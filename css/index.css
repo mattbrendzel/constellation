@@ -19,7 +19,7 @@ nav {
 }
 
 .menu-item-label {
-  font-size: 1.4em;
+  font-size: 1.2em;
   padding: 5px 12px 8px;
 }
 
@@ -38,6 +38,9 @@ nav {
 body {
   background: no-repeat top/100% url('../assets/background.jpg');
   color: #ddd;
+  font-family: 'Open Sans';
+  font-weight: lighter;
+  text-shadow: black 2px 2px;
 }
 
 nav {
