@@ -7,7 +7,6 @@ header  {
 }
 
 nav {
-  background-color: black;
   display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -16,24 +15,43 @@ nav {
 }
 
 .menu-item {
-  background-color: red;
   padding-top: 5px;
 }
 
 .menu-item-label {
-  background-color: green;
   font-size: 1.4em;
   padding: 5px 12px 8px;
 }
 
 .menu-item-dropdown {
-  background-color: yellow;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 .menu-item-dropdown li {
-  background-color: grey;
   padding: 12px;
+}
+
+/* NON-POSITIONING STYLES (e.g. color) */
+
+body {
+  background: no-repeat top/100% url('../assets/background.jpg');
+  color: #ddd;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.menu-item.selected {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.menu-item-dropdown {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.menu-item-dropdown > li:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
