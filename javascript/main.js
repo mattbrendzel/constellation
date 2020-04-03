@@ -9,7 +9,7 @@ const selectNavMenuItemLabel = function (e) {
 };
 
 const selectMenuDropdownItem = function (e) {
-  document.querySelector('#content').textContent = "TEST";
+  document.querySelector('#content').textContent = e.target.dataset.text;
   resetMenuSelection();
 }
 
