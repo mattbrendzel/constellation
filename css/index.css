@@ -33,14 +33,21 @@ nav {
   padding: 12px;
 }
 
+article div {
+  font-size: 4.3em;
+  position: absolute;
+    top: 300px;
+    left: 40px;
+}
+
 /* NON-POSITIONING STYLES (e.g. color) */
 
 body {
   background: no-repeat top/100% url('../assets/background.jpg');
-  color: #ddd;
+  color: #eee;
   font-family: 'Open Sans';
   font-weight: lighter;
-  text-shadow: black 2px 2px;
+  text-shadow: black 1px 1px;
 }
 
 nav {
