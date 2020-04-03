@@ -1,0 +1,39 @@
+/* POSITIONING AND FONT SIZING */
+header  {
+  width: 100%;
+  position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  max-height: 45px;
+  padding: 0 18%;
+}
+
+.menu-item {
+  background-color: red;
+  padding-top: 5px;
+}
+
+.menu-item-label {
+  background-color: green;
+  font-size: 1.4em;
+  padding: 5px 12px 8px;
+}
+
+.menu-item-dropdown {
+  background-color: yellow;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item-dropdown li {
+  background-color: grey;
+  padding: 12px;
+}
